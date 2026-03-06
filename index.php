@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IRIS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>BTS SIO 1 JV<img src="images/iris_logo.png" width="250"></h1>
+  <p>La meilleure promo d'IRIS, enfin presque...</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- colonne 1 : Notions Générales -->
+    <div class="col-sm-4">
+      <h3>Notions Générales</h3>
+      <p><a href="cours/Chapitre 1 - Notions générales.pdf" target="_BLANK">Les bases de la programmation en langage C et PHP</a></p>
+      <p>Élaborer un MCA qui calcule la moyenne de trois notes.<br>
+      <a href="exercices/MCAmoy.png" target="_BLANK"><img src="images/exo.png" width="50"></a></p>
+    </div>
+
+    <!-- colonne 2 : Les Alternatives -->
+    <div class="col-sm-4">
+      <h3>Les Alternatives</h3>
+      <p><a href="cours/Chapitre 2 - Alternatives + exos entrainement.pdf" target="_BLANK">Alternatives simple, alternative double, choix multiples</a></p>
+      <p>Moyenne de trois notes<br>
+      <a href="exercices/moy.php" target="_BLANK"><img src="images/php.png" width="50"></a><a href="exercices/jourC.png" target="_BLANK"><img src="images/langagec.png" width="30"></a></p>
+    </div>
+
+    <!-- colonne 3 : Les Boucles -->
+    <div class="col-sm-4">
+      <h3>Les Boucles</h3>        
+      <p><a href="cours/Chapitre 3 - Boucles.pdf" target="_BLANK">While, do...While, For</a></p>
+      <p>Nombres pairs compris entre 2 et 20<br>
+      <a href="">ALGO</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
