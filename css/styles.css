@@ -1,0 +1,25 @@
+
+.bg-primary 
+{
+	background-color: transparent !important;
+	background-image: url(../images/banner.jpg) !important;
+	background-repeat: no-repeat;
+	background-position-y: 90%;
+	background-size: 100% auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:link {color:#7A3C9E;}
+a:visited {color:#7A3C9E;}
+a:hover {color:#E06C9E;}
+
+a.liste:link {
+  text-decoration: underline;
+}
+
+a.liste:link {color:#5E5061;}
+a.liste:visited {color:#5E5061;}
+a.liste:hover {color:#AF99BD;}
