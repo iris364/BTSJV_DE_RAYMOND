@@ -17,7 +17,7 @@ a:visited {color:#7A3C9E;}
 a:hover {color:#E06C9E;}
 
 a.liste:link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.liste:link {color:#5E5061;}
