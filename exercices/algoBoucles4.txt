@@ -1,0 +1,17 @@
+algo : nbrePair
+
+declaration
+
+i : entier
+
+debut
+
+	pour i allant de 1 à 20 pas 1 faire 
+	
+		afficher(nb , " est un nombre pair")
+	
+	fin pour
+
+fin nbrePair
+
+	

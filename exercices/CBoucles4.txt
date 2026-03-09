@@ -1,0 +1,56 @@
+//tester le numéro du jour de la semaine et afficher un message
+
+#include <stdio.h>
+
+int main()
+{
+    printf("--- Verification des jours --- \n"
+            "Jour:                   Choix: \n"
+            "Lundi                   1 \n"
+            "Mardi                   2 \n"
+            "Mercredi                3 \n"
+            "Jeudi                   4 \n"
+            "Vendredi                5 \n"
+            "Samedi                  6 \n"
+            "Dimanche                7 \n"
+            "\nQUITTER                 0\n");
+
+    int choix;
+
+    do
+    {
+        printf("\nSaisir votre choix : \n");
+        scanf_s("%d", &choix);
+
+        switch (choix)
+        {
+
+        case 1: case 2: case 3: case 4: case 5:
+            printf("\nJour de travail\n");
+            break;
+
+        case 6: case 7:
+            printf("\nJour de repos\n");
+            break;
+
+        default:
+
+            if (choix != 0)
+            {
+                printf("\nSaisir un jour compris entre 1 et 7 !\n");
+            }
+            else
+            {
+                printf("\nAu revoir\n");
+
+                return 0;
+            }
+            
+
+        }
+
+    } while (choix != 0);
+  
+    
+    return 0;
+}

@@ -1,0 +1,36 @@
+<form method="get">
+
+	<input type="text" name="n1" placeholder="Saisir la première note">
+	<input type="text" name="n2" placeholder="Saisir la seconde note">
+	<input type="submit" name="valider" value="VALIDER">
+
+</form>
+
+<?php
+
+if (isset($_GET["valider"])) {
+	$n1 = $_GET["n1"];
+	$n2 = $_GET["n2"];
+   if ($n1 < 1 || $n1 > 20 || $n2 < 1 || $n2 > 20)
+    {
+        echo "compris entre 1 et 20 !";
+
+    }
+
+    $s = $n1 + $n2;
+    $m = $s / 2;
+
+    if ($m < 10)
+    {
+    	echo "Non admis";
+
+    }else{
+
+        echo "Admis";
+    }
+
+}
+
+?>
+
+	

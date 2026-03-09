@@ -1,0 +1,19 @@
+Algo : nombres_pairs
+
+Déclaration
+
+	nb : entier
+
+Début
+
+	nb <-2
+
+	tant que nb <= 20 faire
+
+		Afficher ("nombre pair : ", nb)
+
+		nb <-nb + 2
+
+	Fin tant que
+
+Fin nombres_pairs

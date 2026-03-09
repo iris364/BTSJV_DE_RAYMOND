@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+intmain (){
+
+	intnb ;
+
+	nb = 2 ;
+
+	while(nb <= 20){
+
+		printf("nombre pair :%d", nb);
+
+		nb = nb + 2;
+
+	}
+
+	return 0;
+
+}
