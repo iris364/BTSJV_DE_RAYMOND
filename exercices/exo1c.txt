@@ -1,0 +1,16 @@
+#include <stdio.h>
+intmain()
+{
+intjour;
+printf("Veuillez saisir un numerode jour : ");
+scanf_s("%d", &jour);
+if (jour <= 5)
+{
+printf("Jour de travail");
+}
+else
+{
+printf("Jour de repos");
+}
+return 0;
+}

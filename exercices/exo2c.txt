@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+    float n1, n2, s, m;
+
+    printf("saisir 1\n");
+    if (scanf_s("%f", &n1) != 1)
+    {
+        printf("Veuillez saisir un nombre\n");
+        return 0;
+    }
+
+    printf("saisir 2\n");
+    if (scanf_s("%f", &n2) != 1)
+    {
+        printf("Veuillez saisir un nombre\n");
+        return 0;
+    }
+
+    if (n1 < 1 || n1 > 20 || n2 < 1 || n2 > 20)
+    {
+        printf("compris entre 1 et 20 !\n");
+        return 0;
+    }
+
+    s = n1 + n2;
+    m = s / 2;
+
+    if (m < 10)
+        printf("Non admis\n");
+    else
+        printf("Admis\n");
+
+    return 0;
+}
